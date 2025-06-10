@@ -3,10 +3,11 @@ import { RouterOutlet } from '@angular/router';
 import { CounterComponent } from './counter/counter.component';
 import { EventComponent } from './event/event.component';
 import { InputComponent } from './input/input.component';
+import { StyleComponent } from './style/style.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, CounterComponent, EventComponent, InputComponent],
+  imports: [RouterOutlet, CounterComponent, EventComponent, InputComponent, StyleComponent],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
