@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-login',
+  selector: 'app-counter',
   imports: [],
-  templateUrl: './login.component.html',
-  styleUrls: ['./login.component.css'],
+  templateUrl: './counter.component.html',
+  styleUrl: './counter.component.css'
 })
-export class LoginComponent {
-  count = 0;
+export class CounterComponent {
+count = 0;
   handleCounter(action: string) {
     switch (action) {
       case 'increment':
@@ -23,4 +23,5 @@ export class LoginComponent {
         break;
     }
   }
+
 }
