@@ -1,0 +1,14 @@
+<h1>For Loop Component</h1>
+@for(user of users; track user)
+{
+  <h2>{{ user }}</h2>
+}
+
+<hr>
+@for(student of students; track student)
+{
+  <h2>{{ student.name }}</h2>
+  <p>Age: {{ student.age }}</p>
+  <p>Grade: {{ student.grade }}</p>
+  <p>Email: {{ student.email }}</p>
+}

@@ -6,10 +6,11 @@ import { InputComponent } from './input/input.component';
 import { StyleComponent } from './style/style.component';
 import { IfElseComponent } from './if-else/if-else.component';
 import { SwitchComponent } from './switch/switch.component';
+import { ForloopComponent } from './forloop/forloop.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, CounterComponent, EventComponent, InputComponent, StyleComponent, IfElseComponent, SwitchComponent],
+  imports: [RouterOutlet, CounterComponent, EventComponent, InputComponent, StyleComponent, IfElseComponent, SwitchComponent, ForloopComponent],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
