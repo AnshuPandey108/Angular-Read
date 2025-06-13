@@ -10,7 +10,6 @@ export class SwitchComponent {
   color: any = 0;
 
   setColor(event: any): void {
-    console.log(event.target.value);
     this.color = event.target.value;
   }
 
