@@ -8,10 +8,11 @@ import { IfElseComponent } from './if-else/if-else.component';
 import { SwitchComponent } from './switch/switch.component';
 import { ForloopComponent } from './forloop/forloop.component';
 import { SignalsComponent } from './signals/signals.component';
+import { DataTypeSignalsComponent } from './data-type-signals/data-type-signals.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, CounterComponent, EventComponent, InputComponent, StyleComponent, IfElseComponent, SwitchComponent, ForloopComponent, SignalsComponent],
+  imports: [RouterOutlet, CounterComponent, EventComponent, InputComponent, StyleComponent, IfElseComponent, SwitchComponent, ForloopComponent, SignalsComponent,DataTypeSignalsComponent],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
