@@ -4,10 +4,11 @@ import { CounterComponent } from './counter/counter.component';
 import { EventComponent } from './event/event.component';
 import { InputComponent } from './input/input.component';
 import { StyleComponent } from './style/style.component';
+import { IfElseComponent } from './if-else/if-else.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, CounterComponent, EventComponent, InputComponent, StyleComponent],
+  imports: [RouterOutlet, CounterComponent, EventComponent, InputComponent, StyleComponent, IfElseComponent],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
